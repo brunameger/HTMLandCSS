@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+
+body{
+    background-color: rgb(19, 4, 33);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+.main{
+    display: flex;
+}
+
+.parte1{
+    width: 65vw;
+    margin-left: 10vw;  
+}
+
+
+.parte1 > h1{
+    color:rgb(127, 244, 255);
+    text-align: left;
+    padding: 0px 70px;
+    margin: 0 auto;
+    margin-top: 12vh;
+    font-size: 38pt;
+	-webkit-text-stroke: 2px #000000;
+	text-shadow: 0 0 9px #c9f3edde, 0 0 30px #00ffdda2;
+    
+}
+
+
+
+.parte1 > p{
+    color:rgb(127, 244, 255);
+    text-align: left;
+    padding: 10px 70px;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    font-size: 17pt;
+    -webkit-text-stroke: 0.2px #000000;  
+    text-shadow: 0 0 9px #c9f3edde; 
+}
+
+.parte1 > img{
+   
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+.parte2{
+    width: 35vw;
+    margin-right: 10vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 60%;
+    background-color: rgba(127, 244, 255, 0.781);
+    margin-top: 24vh;
+    padding: 0px 20px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px #95a1a1;
+}
+
+.card > h1 {
+    font-size: 40pt;
+    margin-top: 5vh;
+    letter-spacing: 9px;
+    
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.email > label{
+    font-size: 22pt;
+    padding: 0px 10px;
+}
+
+.email > input{
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: 0px 0px 14px #162525a1;
+    outline: none;
+    width: 285px;
+    
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.options > p {
+    font-size: 22pt;
+    padding-right: 10px ;
+}
+
+.options > select{
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 14px #162525a1;
+    align-items: center;
+    outline: none;
+    
+}
+.card > button {
+    margin-top: 5vh;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: 'Rajdhani', sans-serif;
+    border: none;
+    box-shadow: 0px 0px 14px #162525a1;
+    cursor: pointer;
+}
+
+.card > button:hover{
+    background-color: #000000; 
+    transition: 0.5s;
+    color:aliceblue;     
+    opacity: 0.7;
+    
+}
